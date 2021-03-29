@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+}
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  } 
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(9, 106, 252, 0.9);        
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgb(248, 244, 10);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(215, 252, 7, 0.842);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(10, 0, 0);
+    display: block;
+  }
+
+  /* main body */
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(assets/bg-header.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+    
+  }
+  .lesson-wrapper {
+   text-align: center;
+   padding-bottom: 80px;
+   padding-left: 5%;
+   padding-right: 5%;
+   background-color: #f7f7f7;
+   display:flex;
+   
+ }
+
+ 
+.lesson-icon img{
+   width: 800px;
+   height: 500px;
+   
+ }
+ .lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+  font-weight: normal;
+ } 
+
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+ /* animasi button */
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #ffd500;
+    cursor: pointer;
+    box-shadow: 0 7px #fdc500;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    
+  }
